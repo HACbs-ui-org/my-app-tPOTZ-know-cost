@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:11f1bc821175e4af80ab4e4be330ddf9df7df142a1c5faca0fa319f6519e6cc7
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:4efe00c1c47419adf1fa0c473ac7137e82e74d12bd8994baecb844cf1d0624a4
         name: container-image
         resources: {}
 status: {}

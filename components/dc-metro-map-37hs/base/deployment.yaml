@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-37hs
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/dc-metro-map-37hs@sha256:326b7fef99c93e7e606c1bb547cc11705d5b0b485562020b91f102fc19e69b18
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/dc-metro-map-37hs@sha256:71fbe7789bae441db609e24868daf9b7b1b27e6b5e567305ef0282dc1cc179bc
         name: my-nodejs
         ports:
         - containerPort: 3001

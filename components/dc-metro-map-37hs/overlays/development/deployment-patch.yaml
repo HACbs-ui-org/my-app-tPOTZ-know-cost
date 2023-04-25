@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/dc-metro-map-37hs@sha256:d35431c2c80601916bfc96535480b3d936a71b3b6b3fddf94731101d22b9c49b
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/dc-metro-map-37hs@sha256:326b7fef99c93e7e606c1bb547cc11705d5b0b485562020b91f102fc19e69b18
         name: my-nodejs
         resources: {}
 status: {}

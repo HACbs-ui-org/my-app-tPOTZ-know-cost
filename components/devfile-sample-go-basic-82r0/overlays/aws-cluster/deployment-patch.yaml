@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-82r0
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-go-basic-82r0@sha256:684dec0a37f65666a47101f801db7fd0279310ef4aa3011b0a884b1387f7b187
+        name: my-go
+        resources: {}
+status: {}

@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wuwb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-wuwb@sha256:30bed2252891f0ade37929d40a72722dbd6b2ab5594ca32be5b1c84ff01946ea
         name: my-nodejs
         ports:
         - containerPort: 3001

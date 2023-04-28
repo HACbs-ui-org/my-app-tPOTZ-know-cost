@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dmwz
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-dmwz@sha256:c47e13569a4d36a3b4ae6f2dfdbcf2b2b48e076991251939916791b57152935d
+        name: my-nodejs
+        resources: {}
+status: {}

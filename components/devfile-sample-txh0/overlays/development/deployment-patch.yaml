@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-txh0
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-txh0@sha256:e2b30c6f74432fcd88ff4500dcc28e81fb1341aecbe185f21f68d93fe53ee337
+        name: my-nodejs
+        resources: {}
+status: {}
